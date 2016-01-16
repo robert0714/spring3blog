@@ -1,0 +1,45 @@
+Pro Spring 3 Sample Application說明
+Problem 1 
+裝在Tomcat上跑...首先會出現的Exception是java.lang.ClassNotFoundException: org.springframework.instrument.classloading.tomcat.TomcatInstrumentableClassLoader
+
+Solution1 
+http://docs.spring.io/spring/docs/3.0.x/spring-framework-reference/html/aop.html#aop-aj-ltw-environments
+
+由於smaple是使用3.1.0版本 ( P.799 )
+
+http://mvnrepository.com/artifact/org.springframework/spring-instrument-tomcat/3.1.0.RELEASE
+
+把此jar拷貝至tomcat下的lib目錄
+
+
+Problem 2 
+設計文件用什麼開啟？( Spring Pro 4 chapter 21 是解釋sample application的設計架構 )
+
+Answer2
+uml
+http://cdn.astah.net/downloads/astah-community-6_9_0-b4c6e9.zip
+data model
+https://marketplace.eclipse.org/category/free-tagging/azzurri-inc
+
+
+
+Problem 3 
+batch-context.xm當中tag <file:inbound-channel-adater> 所造成得錯誤
+Answer3
+跟據書上p.791上的敘述.....匯入資料會搬移到c:/temp/entries目錄當中
+
+Problem 4 
+首頁路徑在設定檔/WEB-INF/web.xml當中找不到預設首頁路徑,首頁究竟是什麼？
+Answer4
+http://localhost:8080/abc/blogs
+Problem 5
+附檔名為clay的檔案要如何開啟？
+
+Answer 5
+它是日本某公司開發的eclipse plugins用途是作為ER-model.
+傳統的下載方式已經無法使用( http://pro.ctlok.com/2010/02/eclipse-plugin-clay-mark-ii-for-entity.html )
+要使用eclipse market 來進行安裝(根據說明只能安裝在windows上)
+http://marketplace.eclipse.org/content/clay-mark-ii
+http://www.iet.unipi.it/a.bechini/sysinf_gest/docs/clay_quick_start_guide.html
+
+
