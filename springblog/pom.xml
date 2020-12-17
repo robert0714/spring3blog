@@ -20,7 +20,7 @@
         <hibernate.validator.version>4.2.0.Final</hibernate.validator.version>         
         <mybatis.version>3.0.6</mybatis.version>   
         <mybatis-spring.version>1.0.2</mybatis-spring.version>
-        <spring.batch.version>2.1.8.RELEASE</spring.batch.version>
+        <spring.batch.version>4.3.1</spring.batch.version>
         <spring.integration.version>2.1.0.RELEASE</spring.integration.version>             
 	</properties>
 	<dependencies>
